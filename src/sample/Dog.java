@@ -35,4 +35,11 @@ public class Dog extends Animal{
 		System.out.println("The dog sleeps when the master ignores it");
 	}
 
+	@Override
+	public String toString() {
+		return "Dog [name=" + name + "]";
+	}
+	
+	
+
 }

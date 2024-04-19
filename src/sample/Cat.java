@@ -34,5 +34,11 @@ public class Cat extends Animal{
 	public void sleep() {
 		System.out.println("The cat sleeps when it wants :-)");
 	}
+
+	@Override
+	public String toString() {
+		return "Cat [name=" + name + "]";
+	}
+	
 	
 }
